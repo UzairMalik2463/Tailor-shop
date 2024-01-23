@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+.body {
+    margin: 0%;
+}
+.empty{
+  height: 100px;
+}
+.admin-logo{
+    font-family: 'Catamaran', sans-serif;
+}
+.navbar{
+    background-color: #52566b;
+}
+@media (max-width:991px) {
+    .sidebar {
+      background-color: rgba(	106, 107, 117, 0.473);
+      backdrop-filter: blur(10px);
+    }
+  }
+  .text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Catamaran', sans-serif;
+  }
+  .container-table{
+    border: solid 1px black;
+  }

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+.body{
+  margin: 0%;
+  background-color: beige;
+}
+.section-bg{
+  background-color: #5C4033;
+}
+.logo {
+  font-family: 'Montez', cursive;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size:30px;
+}
+
+
+.span-logo {
+  color: red;
+}
+.carousel-caption{
+  font-family: 'Style Script';
+}
+.heroimg {
+  height: 600px;
+  filter: brightness(0.7);
+  /* background-color: #899e9c; */
+}
+
+@media (max-width:991px) {
+  .sidebar {
+    background-color: rgba(	196, 164, 132, 0.473);
+    backdrop-filter: blur(10px);
+  }
+}
+@media (max-width:600px){
+  .heroimg{
+    height: 450px;
+  }
+  .carousel-control-prev,.carousel-control-next{
+    display: none;
+  }
+  
+}
+.second-sec-img{
+  width: 300px;
+}
+.transparent-div{
+  height: 500px;
+  background-image: url(images/pexels-wallace-chuck-2973396.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-attachment: fixed;
+}
+.display-1{
+  font-family: 'Montez', cursive;
+}
+.contact{
+  background-color: #5C4033;
+  height: 300px;
+}
+@media (max-width:766px){
+  .contact{
+    height: 230px;
+  }
+}
+@media (min-width:991px){
+  .contact{
+    height: 250px;
+  }
+}
+
+
+/* pant coat file */
+
+
+.pant-coat-navbar{
+  background-color: #3f2418;
+}
+.pant-coat-head-div{
+  height: 200px;
+  position: relative;
+  border-bottom: solid #3f2418 3px;
+  border-radius: 2px;
+  
+}
+.pant-coat-head{
+  color: #3f2418;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Kanit', sans-serif;
+}
+.img-fluid{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+
+
